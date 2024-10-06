@@ -1,0 +1,30 @@
+{
+  "clearMocks": true,
+  "collectCoverage": false,
+  "collectCoverageFrom": [
+    "**/*.(t|j)s"
+  ],
+  "coverageDirectory": "../coverage",
+  "coverageProvider": "v8",
+  "moduleDirectories": [
+   "node_modules",
+   "src"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "moduleNameMapper": {
+    "^lodash-es$": "lodash"
+  },
+  "rootDir": "src",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": [
+    "node_modules",
+    "dist"
+  ],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  }
+}
